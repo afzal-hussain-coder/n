@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/bckground"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/bckground"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/ivProfileImage"
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_70sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:src="@drawable/cover"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tvCoachName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_toRightOf="@+id/ivProfileImage"
+                        android:layout_marginTop="@dimen/_30sdp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        app:fontFamily="@font/montserrat_regular" />
+
+                    <TextView
+                        android:id="@+id/tvCoacTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvCoachName"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_toRightOf="@+id/ivProfileImage"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        app:fontFamily="@font/montserrat_bold" />
+
+                    <TextView
+                        android:id="@+id/tvPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_toRightOf="@+id/ivProfileImage"
+                        android:layout_below="@+id/tvCoacTitle"
+                        android:text=""
+                        android:textColor="#3EB935"
+                        android:textSize="14sp"
+                        app:fontFamily="@font/montserrat_bold" />
+                    <TextView
+                        android:id="@+id/tvOfferPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_toRightOf="@+id/ivProfileImage"
+                        android:layout_below="@+id/tvPrice"
+                        android:text=""
+                        android:textColor="#3EB935"
+                        android:textSize="14sp"
+                        app:fontFamily="@font/montserrat_bold" />
+
+
+                    <TextView
+                        android:id="@+id/tvDiscription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ivProfileImage"
+                        android:textColor="@color/white"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:fontFamily="@font/signika_regular"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_10sdp" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <com.applandeo.materialcalendarview.CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                app:eventsEnabled="true"
+                app:forwardButtonSrc="@drawable/ic_arrow_right"
+                app:headerColor="#6C717C"
+                app:headerLabelColor="#FFFFFF"
+                app:pagesColor="@color/bckground"
+                app:abbreviationsBarColor="@color/bckground"
+                app:abbreviationsLabelsColor= "@color/bckground"
+                app:daysLabelsColor="@color/white"
+                app:previousButtonSrc="@drawable/ic_arrow_left"
+                app:selectionColor="@color/colorAccent"
+                app:todayLabelColor="#cc0000"
+                app:type="one_day_picker" />
+
+            <TextView
+                android:id="@+id/btnCalender"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/round_corner_red"
+                android:fontFamily="@font/gotham_book"
+                android:gravity="center"
+                android:text="Book Coach"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

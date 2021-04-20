@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Criconet</string>
+    <string name="facebook_app_id" translatable="false">1007046529735418</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1007046529735418</string>
+    <string name="channel_id" translatable="false">Criconet_Notifications</string>
+    <string name="ls_channel_id" translatable="false">Live_Streaming</string>
+    <string name="call_channel_id" translatable="false">Criconet_Calling</string>
+
+    <!--e0049fa7d09c6a5ef5186120aeb52f08-->
+    <string name="ok">OK</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+
+    <!--<string name="Are you sure you want to Report this User?">LOGIN</string>-->
+    <!--<string name="Send Friend Request">LOGIN</string>-->
+    <!--<string name="Already Requested">LOGIN</string>-->
+
+
+    <string name="title_list1">Welcome to Criconet</string>
+    <string name="title_list2">Your New Social Media App Features</string>
+    <string name="title_list3">Connect &amp; Enjoy!</string>
+    <string name="content_list1">Welcome to your New Social Media App</string>
+    <string name="content_list2">Share your mind and activities with your friends,  by uploading photos and videos.</string>
+    <string name="content_list3">Find your friends and connect, share with them.  Enjoy your new life with friends.</string>
+
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.         Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type         and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic         typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+    <string name="lorem_ipsum2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.         Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type         and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic         typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.            Lorem Ipsum is simply dummy text of the printing and typesetting industry.         Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type         and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic         typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+    <string name="rr">\u00A9 2018 Criconet. All right reserved.</string>
+
+    <string name="pass_text">Please enter your email address to reset password.</string>
+    <!--<string name="pass_text">Please enter your email address.  You will receive a link to create a new password via email.</string>-->
+    <string name="notfound">Sorry  No Data found</string>
+    <string name="notfound_com">Sorry  No Comments found</string>
+    <string name="notfound_video">Sorry  No Videos found</string>
+    <string name="notfound_photo">Sorry  No Photos found</string>
+    <string name="notfound_users">Sorry  No Users found</string>
+    <string name="notfound_friend">Sorry  No Friends found</string>
+    <string name="notfound_request">No Pending Friend Request</string>
+    <string name="notfound_noti">Sorry  No Notifications found</string>
+    <string name="up_image">uploading_image</string>
+    <string name="cancel">Cancel</string>
+    <string name="dashboard">Dashboard</string>
+
+    <string name="email">EMAIL</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="forgot_password_hd">Forgot Password</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">- Sign up</string>
+    <string name="email_address">Email Address</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="address">Address</string>
+    <string name="sign_in_btn">Sign in</string>
+    <string name="register">Register</string>
+    <string name="enter_reason">Enter Reason</string>
+    <string name="unblock">Unblock</string>
+    <string name="current_password">CURRENT PASSWORD</string>
+    <string name="new_password">NEW PASSWORD</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="update_password">Update Password</string>
+    <string name="what_s_on_your_mind">Expert Comments..</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="chat">Chat</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="full_name">FULL NAME</string>
+    <string name="address_cap">ADDRESS</string>
+    <string name="city_state">CITY/STATE</string>
+    <string name="gender">Gender</string>
+    <string name="school">SCHOOL</string>
+    <string name="education">EDUCATION</string>
+    <string name="studies">STUDIES</string>
+    <string name="employment">EMPLOYMENT</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="comment">Write a comment..</string>
+    <string name="share_a_new_photo">Share a new photo</string>
+    <string name="share_a_new_video">Share a new video</string>
+    <string name="share_a_new_message">Share a new message</string>
+    <string name="post_a_new_photo">Posted a new Photo</string>
+    <string name="post_a_new_video">Posted a new video</string>
+    <string name="post_a_new_message">Posted a new message</string>
+    <string name="likes">Sixer</string>
+    <string name="dislikes" translatable="false">No Ball</string>
+    <string name="comments">Expert Advice</string>
+    <string name="share">Huddle</string>
+    <string name="upload_profile_picture">Upload Profile Picture</string>
+    <string name="skip_step"><![CDATA[You can skip this step & upload later]]></string>
+    <string name="skip_now">Skip Now</string>
+    <!--<string name="first_name">FIRST NAME</string>-->
+    <string name="sign_up_btn">Sign up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in">- Sign in</string>
+    <string name="send_friend_request"> + Send Friend Request</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="studied">Studied</string>
+    <string name="search_users_here">Search users here..</string>
+    <string name="login">Login</string>
+    <string name="upload_picture">Upload Picture</string>
+    <string name="blocked_users">Blocked Users</string>
+    <string name="change_password">CHANGE PASSWORD</string>
+    <string name="friends_request">Friends Request</string>
+    <string name="friends">My Friends</string>
+    <string name="help">Help</string>
+    <string name="notifications">Notifications</string>
+    <string name="photo_videos">"Photos/Videos"</string>
+    <string name="users">Users</string>
+    <string name="near_users">Nearby Users</string>
+    <string name="video_calls">Video Calls</string>
+    <string name="call_history">Call History</string>
+    <string name="privacysettings">Privacy Settings</string>
+    <string name="setting">Settings</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="dob">D.O.B</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="post_non_sharable">Post Is Not Sharable</string>
+    <string name="privacy_setting">Privacy Setting</string>
+    <string name="deactivate_account">Deactivate Account</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="recommend_this_app">Recommend This App</string>
+    <string name="deactivate">DEACTIVATE</string>
+    <string name="confirm_deactivate">Are You Sure you want to DEACTIVATE your account ?</string>
+    <string name="confirm_delete">Are You Sure you want to DELETE your account ?</string>
+    <string name="delete">DELETE</string>
+    <string name="update">UPDATE</string>
+    <string name="select_privacy">Select Privacy First</string>
+    <string name="no_internet">No Internet Connection !</string>
+    <string name="loading">Loading..</string>
+    <string name="pls_wait" translatable="false">Please Wait..</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_pass">Change Password</string>
+    <string name="friend_request">Friend Request</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="please_select_your_language">Please Select Your Language</string>
+    <string name="select_your_preferred_language">Select your preferred language</string>
+    <string name="open_location_settings">Settings</string>
+    <string name="gps_network_not_enabled">GPS is Not Enabled</string>
+    <string name="home" translatable="false">Pavilion</string>
+    <string name="pages" translatable="false">Pages</string>
+    <string name="avility" translatable="false">Slot</string>
+    <string name="Followers" translatable="false">Followers</string>
+    <string name="Followings" translatable="false">Following</string>
+    <string name="my_pages" translatable="false">My Pages</string>
+    <string name="following_request" translatable="false">Following Request</string>
+    <string name="update_page" translatable="false">Update Page</string>
+    <string name="details" translatable="false">Details</string>
+    <string name="calender" translatable="false">Calender</string>
+    <string name="coach" translatable="false">Coach Booking</string>
+    <string name="booking_history" translatable="false">Booking History</string>
+    <string name="coach_details" translatable="false">Coach Details</string>
+
+    <string-array name="months" translatable="false">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="genders" translatable="false">
+        <item>SELECT GENDER</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="country" translatable="false">
+        <item>Country</item>
+    </string-array>
+    <string-array name="state" translatable="false">
+        <item>State</item>
+    </string-array>
+
+    <string-array name="city" translatable="false">
+        <item>City</item>
+    </string-array>
+
+    <string-array name="language" translatable="false">
+        <item>Select Language</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="privacy" translatable="false">
+        <item>Select Privacy Setting</item>
+        <item>Only me</item>
+        <item>Friends only</item>
+        <item>Friend of friends</item>
+        <item>Do not share my data</item>
+    </string-array>
+    <string-array name="privacy2" translatable="false">
+        <item>Everyone</item>
+        <item>Only me</item>
+        <item>People I Follow</item>
+        <item>My Followers</item>
+    </string-array>
+
+
+    <string name="label_settings" translatable="false">Settings</string>
+
+    <string name="msg_welcome_message" translatable="false">Welcome to Open Video Call</string>
+
+    <string name="label_channel_name_hint" translatable="false">Channel name</string>
+
+    <string name="label_encryption_key_hint" translatable="false">Encryption key</string>
+
+    <string name="label_join" translatable="false">Join</string>
+
+    <string name="label_do_network_test" translatable="false">Test your network</string>
+
+    <string name="label_confirm" translatable="false">Confirm</string>
+
+    <string name="label_send" translatable="false">Send</string>
+
+    <string name="label_options" translatable="false">Options</string>
+    <string name="label_network_testing" translatable="false">Testing…</string>
+    <string name="label_network_testing_placeholder" translatable="false">-</string>
+    <string name="label_network_test_result" translatable="false">Test Result</string>
+
+    <string name="label_debug" translatable="false">Debug</string>
+    <string name="label_quality" translatable="false">Quality</string>
+    <string name="label_rtt" translatable="false">RTT</string>
+    <string name="label_uplink_packet_loss" translatable="false">Uplink Packet Loss</string>
+    <string name="label_downlink_packet_loss" translatable="false">Downlink Packet Loss</string>
+
+    <string name="msg_say_something" translatable="false">Say something…</string>
+
+    <string name="msg_connection_error" translatable="false">Connection error, please check the network settings or make sure channel name/access token are valid</string>
+
+    <string name="label_title_resolution" translatable="false">Resolution</string>
+    <string name="label_title_frame_rate" translatable="false">Frame Rate(fps)</string>
+
+    // DO NOT TRANSLATE
+    <string name="bit_rate_value_with_unit" translatable="false">%d kbps</string>
+    <string name="frame_rate_value_with_unit" translatable="false">%d fps</string>
+
+    <string name="loading_dot" translatable="false">Loading…</string>
+    <string name="batting">Batting</string>
+    <string name="bowling">Bowling</string>
+    <string name="filding">Filding</string>
+    <string name="wicket_keeping">Wicket Keeping</string>
+    <string name="mental">Mental</string>
+    <string name="tactical">Tactical</string>
+    <string name="physical">Physical</string>
+    <string name="coach_profile_title">Coach Profile Title*</string>
+    <string name="total_experience">Total Experience</string>
+    <string name="any_other_information">Any Other Information</string>
+    <string name="amount_session_30_mins_of_online_e_coaching">Amount/Session * (30 mins of online e-coaching)</string>
+    <string name="save_amp_continue"><![CDATA[Save & Continue]]></string>
+    <string name="choose_your_specialities">Choose your specialities*</string>
+
+</resources>

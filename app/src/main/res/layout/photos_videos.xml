@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_smoke">
+
+    <LinearLayout
+        android:id="@+id/send_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:id="@+id/show_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0.5dp"
+            android:layout_weight="1"
+            android:background="@color/app_blue_dark"
+            android:gravity="center"
+            android:padding="7dp">
+
+            <ImageView
+                android:id="@+id/p_img"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_toStartOf="@+id/p"
+                android:padding="5dp"
+                android:src="@drawable/photo_white" />
+
+            <com.pb.criconet.Utills.Mytextview
+                android:id="@+id/p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/photo"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/show_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0.5dp"
+            android:layout_weight="1"
+            android:background="@color/app_blue_dark"
+            android:gravity="center"
+            android:padding="7dp">
+
+            <ImageView
+                android:id="@+id/v_img"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_toStartOf="@+id/v"
+                android:padding="5dp"
+                android:src="@drawable/video_white" />
+
+            <com.pb.criconet.Utills.Mytextview
+                android:id="@+id/v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/video"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/photo_video_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/send_panel"
+        android:numColumns="3"
+        android:padding="3dp" />
+
+    <TextView
+        android:id="@+id/notfound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/notfound"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+
+</RelativeLayout>

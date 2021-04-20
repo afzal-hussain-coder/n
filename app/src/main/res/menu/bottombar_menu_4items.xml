@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black"
+    app:bbn_badgeColor="#FFFF0000"
+    app:bbn_itemColorInactive="#CC000000"
+    app:bbn_rippleColor="#33ffffff">
+
+    <item
+        android:id="@+id/bbn_home"
+        android:color="@color/colorPrimaryDark"
+        android:icon="@drawable/icon_home_24"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/bbn_live"
+        android:color="@color/colorPrimary"
+        android:icon="@drawable/icon_streaming_24"
+        android:title="Live" />
+    <item
+        android:id="@+id/bbn_rec"
+        android:color="@color/colorPrimaryDark"
+        android:icon="@drawable/icon_rec_24"
+        android:title="Recording" />
+    <item
+        android:id="@+id/bbn_setting"
+        android:color="@color/colorPrimary"
+        android:icon="@drawable/coach"
+        android:title="Coach" />
+
+</menu>

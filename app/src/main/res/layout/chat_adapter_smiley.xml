@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="30dp"
+    android:background="@color/white">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView6"
+        android:background="@drawable/chatboxmy"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="55dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp">
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/chat_smiley"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:visibility="visible"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_below="@+id/text_chatname"/>-->
+
+        <TextView
+            android:id="@+id/text_chatname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:text="User Name"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_chat_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:paddingTop="5dp"
+            android:text="time"
+            android:layout_marginRight="10dp"
+            android:textColor="#fff"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/chat_attachment"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible"
+            android:layout_below="@+id/text_chatname"/>
+
+        <ImageView
+            android:id="@+id/chat_doc"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/text_chatname"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="centerCrop"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/chat_audio"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@android:drawable/presence_audio_away"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:layout_below="@+id/text_chatname"/>
+
+        <TextView
+            android:id="@+id/text_chatdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/text_chatname"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:text=""
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <!--<ImageView-->
+            <!--android:id="@+id/chat_audio"-->
+            <!--android:layout_width="70dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:src="@android:drawable/presence_audio_away"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_below="@+id/text_chatname"/>-->
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

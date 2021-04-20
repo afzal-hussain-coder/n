@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:background="@color/colorPrimary">-->
+
+    <!--<Button-->
+    <!--android:id="@+id/back"-->
+    <!--android:layout_width="20dp"-->
+    <!--android:layout_height="20dp"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_alignTop="@+id/textView17"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:background="@drawable/left_arrow" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView17"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:gravity="center"-->
+    <!--android:text="Create Group"-->
+    <!--android:textAllCaps="true"-->
+    <!--android:textColor="#fff"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/creategrp"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginRight="5dp"-->
+    <!--android:background="@drawable/tickbtn" />-->
+    <!--</RelativeLayout>-->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_chat" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#fff">
+
+        <EditText
+            android:id="@+id/grpname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/grpicon"
+            android:background="@drawable/edittextbackgrnd"
+            android:ems="10"
+            android:hint="Group name..."
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/grpicon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/group_icon" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Provide a group subject and optional group icon."
+        android:textColor="#746f6f" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Participatnt :"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.pb.criconet.Utills.GridViewCompat
+            android:id="@+id/selectmembers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:numColumns="3"
+            android:stretchMode="columnWidth" />
+
+    </RelativeLayout>
+
+</LinearLayout>
